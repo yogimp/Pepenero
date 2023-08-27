@@ -36,7 +36,7 @@ const Slider = () => {
         <div className='flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg bg-fuchsia-50'>
             {/* TEXT CONTAINER */}
             <div className='flex-1 flex items-center justify-center flex-col gap-8 text-red-500 font-bold'>
-                <h1 className='text-3xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl'>
+                <h1 className='text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl'>
                     {data[currentSlide].title}
                 </h1>
                 <button className='bg-red-500 text-white py-2 px-4 md:py-4 md:px-8'>Order Now</button>
